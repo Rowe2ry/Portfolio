@@ -3,8 +3,10 @@ import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
           <Route path="/about" element={<AboutMe />} />
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </main>
       <Footer />
