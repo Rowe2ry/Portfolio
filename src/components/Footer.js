@@ -7,6 +7,7 @@ const Footer = () => {
                     <li><p className="copywrite">Network with me!</p></li>
                     <li><a target="_blank" href="https://www.linkedin.com/in/rowe2ry/" rel="noreferrer">LinkedIn</a></li>
                     <li><a target="_blank" href="https://github.com/Rowe2ry/" rel="noreferrer">GitHub</a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/rowe2ry/" rel="noreferrer">Facebook</a></li>
                 </ul>
             </div>
         </footer>
