@@ -20,12 +20,13 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        if (name.length && email.length && message.length) {
+            window.location.href = "mailto: rowe2ry@gmail.com"+'?cc='+email+'&subject=Portfolio Response'+'&body='+message;
 
-        window.location.href = "mailto: rowe2ry@gmail.com"+'?cc='+email+'&subject=Portfolio Response'+'&body='+message;
-
-        setName('');
-        setEmail('');
-        setMessage('')
+            setName('');
+            setEmail('');
+            setMessage('');
+        };
     };
 
     const handleFocusLoss = (e) => {

@@ -6,7 +6,6 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App() {
   return (
@@ -14,6 +13,7 @@ function App() {
       <Header />
       <main>
         <Routes>
+          <Route path="/Rowe2ry/Portfolio" element={<AboutMe />} />
           <Route path="/" element={<AboutMe />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/work" element={<Work />} />

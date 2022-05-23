@@ -234,8 +234,10 @@ button {
 }
 
 .contact__card {
-    width: 100%;
+    width: 90%;
     text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 form {
@@ -316,5 +318,8 @@ button a {
         border-left: none;
         border-top: 2px solid var(--clr-tertiary-highlight);
         max-width: 100%;
+    }
+    form {
+        padding: 2em 1em;
     }
 }
