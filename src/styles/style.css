@@ -191,6 +191,7 @@ a:hover {
 }
 
 .background {
+    /* background-image: url(../assets/image/Dimes.jpg); */
     background-color: var(--clr-light-1);
 }
 
