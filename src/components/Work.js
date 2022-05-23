@@ -2,6 +2,8 @@ import Overdrive from './Overdrive';
 import Quiz from './Quiz';
 import Weather from './Weather';
 import ProfileGenerator from './ProfileGenerator';
+import RoadTrip from './RoadTripApp';
+import VueTimer from './VueReactionTimer';
 
 const Work = () => {
     return (
@@ -11,6 +13,8 @@ const Work = () => {
                 <Quiz />
                 <Weather />
                 <ProfileGenerator />
+                <RoadTrip />
+                <VueTimer />
             </div>
         </div>
     );
