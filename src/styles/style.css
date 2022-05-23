@@ -256,6 +256,8 @@ form {
 }
 
 label {
+    margin-top: 1.75em;
+    margin-bottom: .125em;
     font-weight: 900;
     float:left;
 }
