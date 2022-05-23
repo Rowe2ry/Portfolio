@@ -117,7 +117,8 @@ h1 {
 }
 
 .nav__list a:hover,
-a:hover {
+a:hover,
+#submit:hover {
     color: var(--clr-tertiary-highlight);
     text-shadow: 2px 2px 4px var(--clr-primary-glow);
 }
@@ -217,6 +218,46 @@ button {
     border-radius: 1rem 0 0 1rem;
     min-width: 33%;
     max-width: 50%
+}
+
+#submit {
+    margin-top: 1.5em;
+    background-color: var(--clr-dark-2);
+    padding: 1em 1.5em;
+    border-radius: 1rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    cursor: pointer;
+    float: right;
+}
+
+.contact__card {
+    width: 100%;
+    text-align: center;
+}
+
+form {
+    padding: 2em 8em;
+}
+
+#name,
+#email,
+#message {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: .5em;
+}
+
+#message {
+    min-height: 6em;
+}
+
+label {
+    font-weight: 900;
+    float:left;
 }
 
 button + button {
