@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/Rowe2ry/Portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/Rowe2ry/Portfolio/static/js/main.0d9a583d.js",
+    "main.css": "/Rowe2ry/Portfolio/static/css/main.726d4c80.css",
+    "main.js": "/Rowe2ry/Portfolio/static/js/main.ee899b67.js",
     "static/js/787.1ed0c42c.chunk.js": "/Rowe2ry/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/Rowe2ry/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Self.jpeg": "/Rowe2ry/Portfolio/static/media/Self.e1d9bfde7018958d7d82.jpeg",
+    "static/media/Roadtrip.png": "/Rowe2ry/Portfolio/static/media/Roadtrip.61baede7bbc26fbb5509.png",
+    "static/media/Overdrive.png": "/Rowe2ry/Portfolio/static/media/Overdrive.f1dbebf3b0c16f906c2d.png",
+    "static/media/profile_generator.png": "/Rowe2ry/Portfolio/static/media/profile_generator.1fbda16dc50232ba29f5.png",
+    "static/media/weather.png": "/Rowe2ry/Portfolio/static/media/weather.cc9ef15d2f02a91e1517.png",
+    "static/media/ChrisRoweResume_May_2022.pdf": "/Rowe2ry/Portfolio/static/media/ChrisRoweResume_May_2022.b41bc80883e15292cd7c.pdf",
+    "static/media/quiz.png": "/Rowe2ry/Portfolio/static/media/quiz.287642e400e3b110de0d.png",
+    "static/media/Vue.png": "/Rowe2ry/Portfolio/static/media/Vue.322507bb18ed2e9386f3.png",
     "index.html": "/Rowe2ry/Portfolio/index.html",
-    "main.073c9b0a.css.map": "/Rowe2ry/Portfolio/static/css/main.073c9b0a.css.map",
-    "main.0d9a583d.js.map": "/Rowe2ry/Portfolio/static/js/main.0d9a583d.js.map",
+    "main.726d4c80.css.map": "/Rowe2ry/Portfolio/static/css/main.726d4c80.css.map",
+    "main.ee899b67.js.map": "/Rowe2ry/Portfolio/static/js/main.ee899b67.js.map",
     "787.1ed0c42c.chunk.js.map": "/Rowe2ry/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0d9a583d.js"
+    "static/css/main.726d4c80.css",
+    "static/js/main.ee899b67.js"
   ]
 }
