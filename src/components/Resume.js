@@ -1,6 +1,6 @@
+import resume from '../assets/pdf/ChrisRoweResume_May_2022.pdf';
+
 const AboutMe = () => {
-
-
 
     return (
         <div className="background">
@@ -12,7 +12,7 @@ const AboutMe = () => {
                         </section>
                         <section className="card__body row">
                             <div className="card__text">
-                                <p>Download my resume <a class="body__link" href="../assets/pdf/ChrisRoweResume_May_2022.pdf">HERE</a>.</p>
+                                <p>Download my resume <a class="body__link" href={resume} download="ChrisRoweResume">HERE</a>.</p>
                                 <p>I have the knowledge and skills to:</p>
                                 <ul>
                                     <li>Configure and implement a relational or non relational database from scratch</li>

@@ -9,7 +9,7 @@ const Weather = () => {
                     </div>
                     <div className="card__body row">
                         <div className="photo">
-                            <img src={weatherScreenshot} alt="Web application for a 5 day forecast"/>
+                            <a target="_blank" href="https://rowe2ry.github.io/Weather-Forecast/" rel="noreferrer"><img src={weatherScreenshot} alt="Web application for a 5 day forecast"/></a>
                         </div>
                         <div className="card__text">
                             <p>A Javascript web application laid out over a Skeleton CSS framework using the OpenWeather API to generate a 5 day forecast. This application features conditional formatting as well as a fully responsive layout.</p>

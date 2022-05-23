@@ -1,6 +1,7 @@
 import Overdrive from './Overdrive';
 import Quiz from './Quiz';
 import Weather from './Weather';
+import ProfileGenerator from './ProfileGenerator';
 
 const Work = () => {
     return (
@@ -9,6 +10,7 @@ const Work = () => {
                 <Overdrive />
                 <Quiz />
                 <Weather />
+                <ProfileGenerator />
             </div>
         </div>
     );
