@@ -275,6 +275,10 @@ button a {
     cursor: pointer;
 }
 
+.error {
+    color: red;
+}
+
 @media screen and (max-width: 910px) {
     h1 {
         font-size: 5vw;

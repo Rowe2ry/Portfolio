@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 
 const Contact = () => {
-    const [name,setName] = useState();
-    const [email,setEmail] = useState();
-    const [message,setMessage] = useState();
+    const [name,setName] = useState('');
+    const [email,setEmail] = useState('');
+    const [message,setMessage] = useState('');
+    const [error, setError] = useState('');
 
     const handleInput = (e) => {
         const { name, value } = e.target;
@@ -27,6 +28,18 @@ const Contact = () => {
         setMessage('')
     };
 
+    const handleFocusLoss = (e) => {
+        const { name,value } = e.target;
+
+        if ((name === 'name' || name === 'message') && value.length < 1) {
+            setError(`${name} field cannot be empty!`);
+        } else if (name === 'email' && /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(value) == false) {
+            setError('email must be valid')
+        } else {
+            setError('');
+        }
+    }
+
     return (
         <div className="background">
             <div className="container">
@@ -46,6 +59,7 @@ const Contact = () => {
                                         type="text"
                                         value ={name}
                                         onChange={handleInput}
+                                        onBlur={handleFocusLoss}
                                     />
                                     <br></br>
                                     <label htmlFor="email">Email</label>
@@ -56,6 +70,7 @@ const Contact = () => {
                                         type="text"
                                         value ={email}
                                         onChange={handleInput}
+                                        onBlur={handleFocusLoss}
                                     />
                                     <br></br>
                                     <label htmlFor="message">Message</label>
@@ -66,8 +81,10 @@ const Contact = () => {
                                         type="text"
                                         value ={message}
                                         onChange={handleInput}
+                                        onBlur={handleFocusLoss}
                                     />
                                     <br></br>
+                                    <p class="error" >{error}</p>
                                     <input id="submit" type="button" value="SUBMIT" onClick={handleSubmit}/>
                                 </form>
                             </div>
