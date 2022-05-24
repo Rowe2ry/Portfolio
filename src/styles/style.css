@@ -282,6 +282,11 @@ button a {
 }
 
 @media screen and (max-width: 910px) {
+
+    main {
+        overflow-y: visible; 
+    }
+
     h1 {
         font-size: 5vw;
         margin: .5em;
