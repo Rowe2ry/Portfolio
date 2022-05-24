@@ -34,7 +34,7 @@ const Contact = () => {
 
         if ((name === 'name' || name === 'message') && value.length < 1) {
             setError(`${name} field cannot be empty!`);
-        } else if (name === 'email' && /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(value) == false) {
+        } else if (name === 'email' && /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(value) === false) {
             setError('email must be valid')
         } else {
             setError('');
