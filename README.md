@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# Personal Portfolio  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  
 
-## Available Scripts
+  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+  ## Description  
 
-In the project directory, you can run:
+  
 
-### `npm start`
+  A portfolio of web development projects written in the React framework.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  * Motivation  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    I wanted to have an online collection of my work to point people to for potential employment, to show my firneds and family, and to use React to do it all.  
 
-### `npm test`
+  * Reason for Building  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    This project serves as my portfolio to showcase my work.  
 
-### `npm run build`
+  * Problems Solved  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    This gives people one centralized place to view both my work, and the code that drives it.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  * Things Learned  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    I learned how to use the React Router and how to compartmentalize my web app into React Components.  
 
-### `npm run eject`
+  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  ## Table of Contents  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  * [Installation](#installation)  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  * [Usage](#usage)  
 
-## Learn More
+  * [License](#license)  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  * [Contributing](#contributing)  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  * [Tests](#tests)  
 
-### Code Splitting
+  * [Questions](#questions)  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  
 
-### Analyzing the Bundle Size
+  ## Installation  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  
 
-### Making a Progressive Web App
+  just visit the website  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  
 
-### Advanced Configuration
+  > https://crowe-portfolio.herokuapp.com/about  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  
 
-### Deployment
+  ## Usage  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  
 
-### `npm run build` fails to minify
+  Navigate the site and use the contact form if you wish to reach out to me.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
+
+  ## License  
+
+  
+
+  [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0)  
+
+  
+
+  ## Contributing  
+
+  
+
+  I would like to thank Georgia Tech, 2u Education, Junghoon Yoon, Travis Cook, Morgan, and Todd for the education. My wife Merry rowe for being such a patient and supportive spouse during my web dev career transition. Andrew Ausley, James Cooper, and Michal Meeks for pointing me into this field of study. And lastly Mihael and Teresa Basch of Advanced Color Imaging in Norcross, GA for the professional groundwork they helped me lay out in my early career.  
+
+  
+
+  ## Tests  
+
+  
+
+  not applicable  
+
+  
+
+  ## Questions  
+
+  
+
+  Reach out if you have any questions about this project.
