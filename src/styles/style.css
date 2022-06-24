@@ -27,23 +27,23 @@ html, #root, body {
     scrollbar-color: var(--clr-tertiary-highlight) var(--clr-dark-2);
   }
   
-  #root {
+#root {
     display: flex;
     flex-direction: column;
-  }
-  
-  header,
-  footer {
+}
+
+header,
+footer {
     flex: none;
-  }
-  
-  main {
+}
+
+main {
     overflow-y: auto; 
     flex: auto;
     background-color: var(--clr-light-1);
     scrollbar-width: thin;
     scrollbar-color: var(--clr-tertiary-highlight) var(--clr-dark-2);
-  }
+}
 
 a {
     text-decoration: none;
@@ -279,6 +279,12 @@ button a {
 
 .error {
     color: red;
+}
+
+.contact__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 910px) {

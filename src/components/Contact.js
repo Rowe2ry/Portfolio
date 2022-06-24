@@ -51,6 +51,7 @@ const Contact = () => {
                         </section>
                         <section className="card__body row contact__card">
                             <div className="card__text contact__card">
+                                <h3>Fill out this form to draft a quick email to me.</h3>
                                 <form>
                                     <label htmlFor="name">Name</label>
                                     <br></br>
@@ -88,6 +89,12 @@ const Contact = () => {
                                     <p class="error" >{error}</p>
                                     <input id="submit" type="button" value="SUBMIT" onClick={handleSubmit}/>
                                 </form>
+                                <br />
+                                <h3>Or use one of the contact methods below instead:</h3>
+                                <ul class="contact__list">
+                                    <li><strong>Phone: </strong><a href="tel:4047138702">404.713.8702</a></li>
+                                    <li><strong>Email: </strong><a href="mailto:rowe2ry@gmail.com">rowe2ry@gmail.com</a></li>
+                                </ul>
                             </div>
                         </section>
                     </article>
