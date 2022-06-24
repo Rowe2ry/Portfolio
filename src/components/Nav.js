@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import resume from '../assets/pdf/ChrisRoweResume_May_2022.pdf';
 
 const Nav = ({ page, handleNavClick }) => {
 

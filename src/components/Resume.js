@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/ChrisRoweResume_May_2022.pdf';
+import resume from '../assets/pdf/ChrisRoweResume2022.pdf';
 
 const AboutMe = () => {
 
