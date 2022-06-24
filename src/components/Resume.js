@@ -12,7 +12,7 @@ const AboutMe = () => {
                         </section>
                         <section className="card__body row">
                             <div className="card__text">
-                                <p>Download my resume <a class="body__link" href={resume} download="ChrisRoweResume">HERE</a>.</p>
+                                <p>Download my resume <a class="body__link" href={resume} download="ChrisRoweResume">HERE</a></p>
                                 <p>Are you in need of web development services using the latest and greatest technologies? I have the knowledge and skills to:</p>
                                 <ul>
                                     <li>Configure and implement a relational or non relational database from scratch</li>
